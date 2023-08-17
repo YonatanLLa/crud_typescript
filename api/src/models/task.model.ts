@@ -10,6 +10,10 @@ const taskSchema = new Schema({
     status: {
         type: Boolean,
         default: true
+    },
+    createdAt:{
+        type: Date,
+        default: Date.now
     }
 
 })
